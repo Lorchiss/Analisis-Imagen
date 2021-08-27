@@ -14,7 +14,7 @@ for y in range(alto):
         r = imagen.item(y,x,2)
         if r>0:
             r,g,b = 255,255,255
-        print(r,g,b)
+        #print(r,g,b)
 
 
 # cv.imshow("imagen",imagen)
